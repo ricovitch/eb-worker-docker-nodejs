@@ -10,7 +10,7 @@ const HOST = '0.0.0.0';
 // log file on linux platforms
 if (process.platform !== 'win32') {
 	try {
-		winston.add(new (winston.transports.File)({ filename: '/var/log/poc_nodejs/app.log' }));
+		winston.add(winston.transports.File, { filename: '/var/log/eb-worker-docker-nodejs/app.log' });
 	} catch (err) {
 		winston.error('winston file transport error : ', err);
 	}

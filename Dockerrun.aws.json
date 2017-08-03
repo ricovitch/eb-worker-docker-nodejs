@@ -1,6 +1,6 @@
 {
 	"AWSEBDockerrunVersion": "1",
-	"Logging": "/var/log/poc_nodejs",
+	"Logging": "/var/log/eb-worker-docker-nodejs",
 	"Image": {
 		"Update": "false"
 	}
