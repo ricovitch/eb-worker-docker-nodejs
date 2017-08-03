@@ -17,4 +17,5 @@ Inspired from
 
 # notes
 
-If you activate cloudwatch log uploads, you will see all logs in cloudwatch, including eb, docker, and the nodejs server logs.
+* If you activate cloudwatch log uploads, you will see all logs in cloudwatch, including eb, docker, and the nodejs server logs.
+* .ebextension/01-dockerrun.config shows a workaround for running docker with "--privileged" flag
