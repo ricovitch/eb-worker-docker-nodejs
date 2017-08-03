@@ -1,0 +1,16 @@
+{
+  "name": "docker_poc_nodejs",
+  "version": "1.0.0",
+  "description": "POC of beanstalk worker docker nodejs app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node server.js"
+  },
+  "author": "Eric Helier",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "winston": "^2.3.1"
+  }
+}

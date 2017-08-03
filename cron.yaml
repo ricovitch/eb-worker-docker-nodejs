@@ -1,0 +1,5 @@
+version: 1
+cron: 
+  - name: "crontask1"
+    url: "/scheduled"
+    schedule: "* * * * *"
